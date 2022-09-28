@@ -8,8 +8,8 @@ const MainCart = (props) => {
             <div className='sport-info'>
                 <p className='sport-name'>{name}</p>
                 <p>{details}</p>
-                <p>{age}</p>
-                <p>{time}</p>
+                <p>For Age: {age}</p>
+                <p>Time required: {time}</p>
             </div>
             <button className='btn-style'>
                 <p>Add to list</p>
