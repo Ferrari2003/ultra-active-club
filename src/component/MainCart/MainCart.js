@@ -1,23 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import Center from './Center/Center';
-  
-const MainCart = () => {
-     const [carts, setCarts] =useState([])
-
-     useEffect(()=>{
-      
-        fetch('load-data.json')
-        .then(Response => Response.json())
-        .then(data => setCarts(data))
-
-     },[])
+import React from 'react';
+import './MainCart.css'
+const MainCart = (props) => {
+    const {name,img,age,time,details} = props.cart
     return (
-        <div>
-            {
-                carts.map(cart => <Center key={cart.id}
-                cart={cart}
-                ></Center>)
-            }
+        <div className='sports-item'>
+            <img src={img} alt="" />
+            <div className='sport-info'>
+                <p className='sport-name'>{name}</p>
+                <p>{details}</p>
+                <p>{age}</p>
+                <p>{time}</p>
+            </div>
+            <button className='btn-style'>
+                <p>Add to list</p>
+            </button>
         </div>
     );
 };
