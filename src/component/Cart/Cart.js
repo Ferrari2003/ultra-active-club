@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import MainCart from '../MainCart/MainCart';
+import logo from '../../images/272680753_1692855514396531_1765510391744026360_n-removebg-preview.png'
 import './Cart.css'
 const Cart = () => {
     const [carts, setCarts] = useState([])
@@ -18,8 +19,11 @@ const Cart = () => {
                     ></MainCart>)
                 }
             </div>
-            <div className="right-container">
-                <h2>Name</h2>
+            <div className="right-container">                
+                <div className='left-side'>
+                <img src={logo} alt="" />
+                <h2>Saiful Islam</h2>
+                </div>
             </div>
         </div>
     );

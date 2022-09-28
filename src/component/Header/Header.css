@@ -1,6 +1,6 @@
 .header{
     height: 80px;
-    background-color: darkslategrey;
+    background-color:crimson;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,15 +9,17 @@
 }
 .name{
     color: white;
+    font-size: 22px;
 }
 .name:hover{
     color: black;
+    transition:1s ease-in-out;
 }
 .header a{
     text-decoration: none;
     margin: 36px;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .header a:hover{
@@ -25,6 +27,8 @@
     font-size: 16px;
     border-radius: 7px;
     color: black;
+    transition: 1s ease-in-out;
     
 }
+
     

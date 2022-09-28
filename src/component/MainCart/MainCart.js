@@ -7,12 +7,12 @@ const MainCart = (props) => {
             <img src={img} alt="" />
             <div className='sport-info'>
                 <p className='sport-name'>{name}</p>
-                <p>{details}</p>
-                <p>For Age: {age}</p>
-                <p>Time required: {time}</p>
+                <p className='details'>{details}</p>
+                <p className='age'>For Age: {age}</p>
+                <p className='time'>Time required: {time}</p>
             </div>
             <button className='btn-style'>
-                <p>Add to list</p>
+                Add to list
             </button>
         </div>
     );

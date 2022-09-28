@@ -9,7 +9,7 @@ import TextSport from './component/TextSport/TextSport';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Header></Header>
       <TextSport></TextSport> 
       <Cart></Cart>   

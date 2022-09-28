@@ -8,3 +8,23 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+@media screen  and (max-width:980px) {
+    .left-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.right-container{
+    background-color: white;
+    
+}
+.left-side{
+   padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-side img{
+  width: 50px;
+  border-radius: 15px;
+} 
