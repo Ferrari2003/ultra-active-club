@@ -9,7 +9,7 @@
 }
 .name{
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 .name:hover{
     color: black;
@@ -20,6 +20,7 @@
     margin: 36px;
     color: white;
     font-size: 20px;
+    
 }
 
 .header a:hover{
@@ -28,6 +29,7 @@
     border-radius: 7px;
     color: black;
     transition: 1s ease-in-out;
+    
     
 }
 
