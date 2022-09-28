@@ -24,6 +24,12 @@ const Cart = () => {
                 <img src={logo} alt="" />
                 <h2>Saiful Islam</h2>
                 </div>
+                <br />
+                <div className='my-details'>
+                    <h2>55kg</h2>
+                    <h2>5.4</h2>
+                    <h2>19yrs</h2>
+                </div>
             </div>
         </div>
     );
