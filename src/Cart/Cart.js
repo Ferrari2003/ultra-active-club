@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '../images/272680753_1692855514396531_1765510391744026360_n-removebg-preview.png';
 import './Cart.css'
 const Cart = () => {
+    
+
     return (
         <div>
           <div className='cart'>
@@ -24,12 +26,11 @@ const Cart = () => {
                 <h2>Exercise Details</h2>
             </div>
              
-             <h3 className='input-style'>Exercise time</h3>
-             <h3 className='input-styles'>Break time</h3>
+             <h3 className='input-style'>Exercise time:</h3>
+             <h3 className='input-styles'>Break time:</h3>
              <div>
                 <button className='last-btn'>Activity Completed</button>
-             </div>
-             
+             </div>            
         </div>
     );
 };

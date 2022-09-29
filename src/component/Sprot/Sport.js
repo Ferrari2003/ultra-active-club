@@ -5,7 +5,7 @@ import './Sport.css'
 const Sport = () => {
 
     const [products, setProducts] = useState ([])
-    const [cart, setCart] = useState([])
+    
   
     useEffect(() =>{
         fetch(`load-data.json`)
@@ -14,9 +14,8 @@ const Sport = () => {
     },[])
 
     const handleClick = (product) => {
-        // console.log(product)
-        const newCart = [...cart,product]
-        setCart(newCart)
+        console.log(product)
+        
     }
     return (
         <div className='main-container'>
