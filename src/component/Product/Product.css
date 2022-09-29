@@ -1,0 +1,62 @@
+.game{
+    margin-left: 100px;
+    width: 300px;
+    height: 750px;
+    box-shadow: 20px 30px 40px;
+    padding: 7px;
+    border-radius: 10px;
+    position: relative;
+}
+.game img{
+    width: 286px;
+    height: 286px;
+    margin: 7px;
+    border-radius: 7px;
+}
+.game-info{
+    margin: 0 14px;
+}
+.game-info p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.game-name{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 7px;
+}
+.game-details{
+    font-size: 20px;
+    font-style: italic;
+}
+.age{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.time{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ width: 50%;
+ margin-left: 70px;
+ position: absolute;
+ bottom: 0;
+ background-color: lightpink;
+ border: none;
+ font-size: 20px;
+ border-radius: 15px;
+}
+.cart-btn:hover{
+    background-color: black;
+    color: white;
+}
+.icon{
+    color: red;
+}

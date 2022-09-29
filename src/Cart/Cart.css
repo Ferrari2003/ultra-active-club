@@ -1,0 +1,77 @@
+.cart{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cart img{
+    width: 50px;
+    border-radius: 15px;  
+}
+.my-details{
+    
+    margin: 20px;
+    box-shadow: 50px 40px 60px 30px beige;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.texts{
+    margin-left: 22px;
+    color: black;
+}
+.break-btn{
+ box-shadow: 50px 40px 60px 30px orangered;
+ border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.timer-btn{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+.timer-btn:hover{
+    background-color: black;
+    color: white;
+}
+.details-text{
+    margin-left: 20px;
+}
+
+.input-style{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 50px 40px 60px 30px greenyellow;
+    padding: 20px;
+    border-radius: 15px;
+}
+.input-styles{
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 50px 40px 60px 30px orchid;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.last-btn{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 50px 40px 60px 30px darkorchid;
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+.last-btn:hover{
+    background-color: black;
+    color: white;
+}

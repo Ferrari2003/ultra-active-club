@@ -1,18 +1,15 @@
 import './App.css';
-import Cart from './component/Cart/Cart';
 import Header from './component/Header/Header';
-import TextSport from './component/TextSport/TextSport';
-
-
-
-
+import Sport from './component/Sprot/Sport';
+import Text from './Text/Text';
 
 function App() {
   return (
     <div className='App'>
       <Header></Header>
-      <TextSport></TextSport> 
-      <Cart></Cart>   
+      <Text></Text>
+      <Sport></Sport>
+      
     </div>
   );
 }

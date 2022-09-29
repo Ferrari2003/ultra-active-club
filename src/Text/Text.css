@@ -1,0 +1,16 @@
+
+.imgStyle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgStyle img{
+  width: 50px;
+  border-radius: 10px;
+  margin: 7px;
+  
+}
+.text{
+  margin-left: 100px;
+}
