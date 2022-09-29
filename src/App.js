@@ -11,6 +11,7 @@ function App() {
       <Text></Text>
       <Sport></Sport>
       <Footer></Footer>
+       
     </div>
   );
 }

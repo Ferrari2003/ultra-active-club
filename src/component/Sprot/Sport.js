@@ -5,7 +5,17 @@ import './Sport.css'
 const Sport = () => {
 
     const [products, setProducts] = useState ([])
-    
+    const [time, setTime] = useState([])
+
+    const handleClick = (times) => {
+       setTime([...time, times]);
+        
+    }
+ 
+   useEffect(() =>{
+    console.log(time)
+   },[time])
+
   
     useEffect(() =>{
         fetch(`load-data.json`)
@@ -13,15 +23,12 @@ const Sport = () => {
         .then(data => setProducts(data))
     },[])
 
-    const handleClick = (product) => {
-        console.log(product)
-        
-    }
+    
     return (
         <div className='main-container'>
            <div className="sport-container">
                {
-                products.map(product => <Product 
+                products.map((product) => <Product 
                  key={product.id}
                 product ={product}
                 handleClick ={handleClick}
