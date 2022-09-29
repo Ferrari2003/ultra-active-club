@@ -50,12 +50,16 @@
     margin: 20px;
     border-radius: 20px;
 }
+
 .btn-radius{
     font-size: 20px;
    border: none;
    padding: 15px; 
     border-radius: 20px;
 }
+.btn-radius:hover{
+    background-color: coral;
+ }
 .details-text{
     margin-left: 20px;
 }
