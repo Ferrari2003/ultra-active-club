@@ -1,6 +1,12 @@
 import React from 'react';
 import './MainCart.css'
 const MainCart = (props) => {
+    
+     const addHandler =(carts) => {
+        console.log(carts)
+     }
+
+
     const {name,img,age,time,details} = props.cart
     return (
         <div className='sports-item'>
@@ -11,7 +17,7 @@ const MainCart = (props) => {
                 <p className='age'>For Age: {age}</p>
                 <p className='time'>Time required: {time}</p>
             </div>
-            <button className='btn-style'>
+            <button onClick={addHandler} className='btn-style'>
                 Add to list
             </button>
         </div>
